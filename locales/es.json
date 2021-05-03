@@ -1,0 +1,41 @@
+{
+  "general": {
+    "altLogo": "Alfredo Fernandez, Full stack developer | Javascript, Vue, Nuxt Laravel y Linux",
+    "closeMenu": "Cerrar menú",
+    "openMenu": "Abrir menú"
+  },
+  "home": {
+    "lastPosts": "Últimos artículos",
+    "lastVideos": "Últimos videos"
+  },
+  "months": {
+    "april": "Abril",
+    "august": "Agosto",
+    "december": "Diciembre",
+    "february": "Febrero",
+    "january": "Enero",
+    "july": "Julio",
+    "june": "Junio",
+    "march": "Marzo",
+    "may": "Mayo",
+    "november": "Noviembre",
+    "october": "Octubre",
+    "september": "Septiembre"
+  },
+  "posts": {
+    "minute": "minuto | minutos"
+  },
+  "projects": {
+    "githubProfile": "perfil de Github",
+    "githubRanking": "🚀 Crea tu ranking sobre contribuciones de github",
+    "learningTracker": "Learning tracker sobre mis conocimientos.",
+    "nearestBin": "🗑 Busca tu papelera más cercana",
+    "portfolio": "Consumiento la api de dev.to con hook $fetch de Nuxt ✌️",
+    "showMore": "Si quieres ver más proyectos visita mi",
+    "timeline": "Timeline minimalista ⏳ con VueJS 💚.",
+    "title": "Mis proyectos",
+    "titleSEO": "Lista de proyectos personales | Alfredo Fernandez",
+    "trackingPlants": "🌲 App para controlar tus plantas 🍀",
+    "whoReviews": "Aplicación para saber quien 🔎 revisa los pull request."
+  }
+}
