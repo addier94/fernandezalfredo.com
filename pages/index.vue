@@ -40,14 +40,14 @@
       </div>
     </section>
     <section class="mt-12 md:grid md:grid-cols-2 md:gap-4">
-      <HomeYoutubeVideos :videos="videos" />
-      <HomeListPosts :posts="posts" />
+      <YoutubeVideos :videos="videos" />
+      <ListPosts :posts="posts" />
     </section>
     <section class="mt-12 text-center">
       Si te gusta mi contenido y quieres apoyarme 💪 puedes invitarme a un ☕️ o
       compartir el contenido
       <div class="flex justify-center mt-4">
-        <UiCoffeeWidget />
+        <CoffeeWidget />
       </div>
     </section>
   </section>
