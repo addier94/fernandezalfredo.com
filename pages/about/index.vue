@@ -76,8 +76,11 @@
 </template>
 
 <script>
+import AboutTechSkills from '@/components/about/TechSkills'
+import TheLink from '@/components/global/TheLink'
 export default {
   name: 'About',
+  components: { AboutTechSkills, TheLink },
   computed: {
     timelineItems() {
       return [

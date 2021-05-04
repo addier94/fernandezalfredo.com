@@ -12,7 +12,7 @@
       />
     </div>
     <div class="flex flex-col m-auto pt-8">
-      <BlogCard
+      <BlogBlogCard
         v-for="(post, index) in posts"
         :key="index"
         v-bind="post"
@@ -23,13 +23,15 @@
 </template>
 
 <script>
-import BlogCard from '@/components/blog/BlogCard'
+import BlogBlogCard from '@/components/blog/BlogCard'
+import UiTag from '@/components/ui/Tag'
 
 export default {
   scrollToTip: true,
   name: 'Blog',
   components: {
-    BlogCard,
+    BlogBlogCard,
+    UiTag,
   },
   async asyncData({ $content }) {
     const posts = await $content('blog')

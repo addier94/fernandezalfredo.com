@@ -40,21 +40,25 @@
       </div>
     </section>
     <section class="mt-12 md:grid md:grid-cols-2 md:gap-4">
-      <YoutubeVideos :videos="videos" />
-      <ListPosts :posts="posts" />
+      <HomeYoutubeVideos :videos="videos" />
+      <HomeListPosts :posts="posts" />
     </section>
     <section class="mt-12 text-center">
       Si te gusta mi contenido y quieres apoyarme 💪 puedes invitarme a un ☕️ o
       compartir el contenido
       <div class="flex justify-center mt-4">
-        <CoffeeWidget />
+        <UiCoffeeWidget />
       </div>
     </section>
   </section>
 </template>
 
 <script>
+import HomeYoutubeVideos from '@/components/home/YoutubeVideos'
+import HomeListPosts from '@/components/home/ListPosts'
+import UiCoffeeWidget from '@/components/ui/CoffeeWidget'
 export default {
+  components: { HomeYoutubeVideos, HomeListPosts, UiCoffeeWidget },
   scrollToTop: true,
   async asyncData({ $content }) {
     const posts = await $content('blog')

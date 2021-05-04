@@ -19,8 +19,11 @@
 
 <script>
 import { PROJECTS } from '@/constants/projects'
+import ProjectsProjectCard from '@/components/projects/ProjectCard'
+import TheLink from '@/components/global/TheLink'
 
 export default {
+  components: { ProjectsProjectCard, TheLink },
   computed: {
     projects() {
       return PROJECTS

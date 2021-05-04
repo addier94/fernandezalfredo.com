@@ -21,16 +21,18 @@
       </div>
       <div class="divider" />
       <nuxt-content :document="doc" />
-      <FooterBlog :article-name="doc.slug" />
+      <BlogFooterBlog :article-name="doc.slug" />
     </article>
   </section>
 </template>
 
 <script>
-import FooterBlog from '~/components/blog/FooterBlog.vue'
+import BlogFooterBlog from '@/components/blog/FooterBlog'
+import UiTag from '@/components/ui/Tag'
+import TheLink from '@/components/global/TheLink'
 
 export default {
-  components: { FooterBlog },
+  components: { BlogFooterBlog, UiTag, TheLink },
   async asyncData({ $content, params }) {
     const doc = await $content(`blog/${params.slug}`).fetch()
     return { doc }

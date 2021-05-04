@@ -11,8 +11,10 @@
 </template>
 
 <script>
+import UiSocialIcons from '@/components/ui/SocialIcons'
 export default {
   name: 'TheFooter',
+  components: { UiSocialIcons },
   computed: {
     year() {
       const date = new Date()
