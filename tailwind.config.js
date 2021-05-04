@@ -1,9 +1,12 @@
 module.exports = {
   theme: {
     extend: {
+      boxShadow: {
+        code: '0 1px 1px rgb(0 0 0 / 8%)',
+      },
       colors: {
         primary: '#5f7fff',
-        dark: '#313131',
+        dark: 'black',
         'yellow-main': {
           300: '#beb950',
           500: '#f1e05a',

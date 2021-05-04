@@ -5,7 +5,7 @@ dominas estes comandos estaras agradecido a git'
 date: 2021-05-02
 timeToRead: 2
 tags:
-  - vue
+  - git
 ---
 
 Voy a mostrarles los comandos que suelo usar con frecuencia en mí día a día

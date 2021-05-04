@@ -2,7 +2,7 @@
   <a href="https://www.buymeacoffee.com/addier94" target="_blank">
     <img
       alt="invítame a un café"
-      src="https://img.buymeacoffee.com/button-api/?text=Invítame a un café&emoji=&slug=pablosirera&button_colour=81a78f&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"
+      src="https://img.buymeacoffee.com/button-api/?text=Invítame a un café&emoji=&slug=fernandezalfredo&button_colour=81a78f&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"
     />
   </a>
 </template>

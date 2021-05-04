@@ -11,9 +11,7 @@
       </span>
     </div>
     <h4 class="text-xl font-semibold">Otros</h4>
-    <p class="text-center">
-      Vuex - Mobile First - Netlify - Prettier - Github - VS Code - Command Line
-    </p>
+    <p class="text-center">Laravel - Node.js - linux - aws</p>
   </div>
 </template>
 

@@ -5,7 +5,7 @@
       <a
         target="_blank"
         :href="`https://twitter.com/intent/tweet?&text=He leído tu artículo 🤩&url=https://fernandezalfredo.com/blog/${articleName}&screen_name=addier94`"
-        class="twitter-button mb-4"
+        class="twitter-button mb-4 text-white"
       >
         Comparte el artículo
         <IconTwitter class="w-8 h-8" />
@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .twitter-button {
-  @apply flex justify-between items-center bg-primary rounded-xl p-4 font-bold text-lg text-black;
+  @apply flex justify-between items-center bg-primary rounded-xl p-4 font-bold text-lg text-white;
 
   height: 50px;
   width: 250px;

@@ -6,9 +6,7 @@ import FirebaseIcon from '@/assets/icons/firebase.svg?inline'
 import SASSIcon from '@/assets/icons/sass.svg?inline'
 import VueIcon from '@/assets/icons/vue.svg?inline'
 import NuxtIcon from '@/assets/icons/nuxt.svg?inline'
-import GraphQLIcon from '@/assets/icons/graphql.svg?inline'
 import ResponsiveIcon from '@/assets/icons/responsive.svg?inline'
-import JestIcon from '@/assets/icons/jest.svg?inline'
 
 export const SKILLS = [
   {
@@ -46,13 +44,5 @@ export const SKILLS = [
   {
     name: 'Nuxt',
     component: NuxtIcon,
-  },
-  {
-    name: 'GraphQL',
-    component: GraphQLIcon,
-  },
-  {
-    name: 'Jest',
-    component: JestIcon,
   },
 ]

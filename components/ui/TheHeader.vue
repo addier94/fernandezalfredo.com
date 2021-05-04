@@ -3,11 +3,11 @@
     <div class="container flex justify-between items-center">
       <nuxt-link to="/" class="flex items-center">
         <Logo />
-        <span class="secondary-title ml-4">Alfredo Fernandez</span>
+        <span class="secondary-title flex pl-2 items-center"> Alfredo </span>
       </nuxt-link>
+      <UiColorModePicker />
       <div class="flex items-center">
         <ul class="text-center hidden sm:flex sm:items-center">
-          <UiColorModePicker class="hidden sm:block" />
           <li v-for="(link, index) in links" :key="index" class="px-2 links">
             <nuxt-link class="link" :to="link.url">
               {{ link.name }}
@@ -58,7 +58,7 @@ export default {
     @apply border-b-2 border-primary pb-2;
   }
 
-  &.nuxt-link-active {
+  &.nuxt-link-exact-active {
     color: var(--nav-link-active-color);
 
     @apply text-primary pb-2;

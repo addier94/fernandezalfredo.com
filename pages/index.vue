@@ -17,7 +17,7 @@
           Si quieres saber más sobre mí, puedes hacer un tour por esta web o
           seguirme por las redes sociales que dejo aquí bajo 👇👇👇
         </p>
-        <div class="flex justify-center my-4">
+        <div class="mt-6">
           <nuxt-link to="/blog" class="blog-button hover:opacity-75">
             Blog
           </nuxt-link>
@@ -27,9 +27,6 @@
           >
             Sobre mí
           </nuxt-link>
-        </div>
-        <div class="mt-4 mb-8 flex justify-center md:mb-0">
-          <UiSocialIcons />
         </div>
       </div>
       <!-- TODO: translate this text -->
@@ -48,7 +45,7 @@
     </section>
     <section class="mt-12 text-center">
       Si te gusta mi contenido y quieres apoyarme 💪 puedes invitarme a un ☕️ o
-      subscribirte gratis con Amazon Prime en mi canal de
+      compartir el contenido
       <div class="flex justify-center mt-4">
         <UiCoffeeWidget />
       </div>
@@ -82,11 +79,11 @@ export default {
 
 <style scoped lang="scss">
 .blog-button {
-  @apply bg-primary px-4 py-2 rounded-lg text-xl font-bold text-white mx-2;
+  @apply bg-primary px-4 py-2 rounded-md text-xl font-bold text-white mx-2 ml-0;
 }
 
 .about-button {
-  @apply border border-primary px-4 py-2 rounded-lg text-xl font-bold mx-2;
+  @apply border border-primary px-4 py-2 rounded-md text-xl font-bold mx-2;
 }
 
 .image-wrapper {

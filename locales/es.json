@@ -27,15 +27,15 @@
   },
   "projects": {
     "githubProfile": "perfil de Github",
-    "githubRanking": "🚀 Crea tu ranking sobre contribuciones de github",
+    "ecommerceapilaravel": "🚀Ecommerce Api con laravel y testing",
     "learningTracker": "Learning tracker sobre mis conocimientos.",
     "nearestBin": "🗑 Busca tu papelera más cercana",
-    "portfolio": "Consumiento la api de dev.to con hook $fetch de Nuxt ✌️",
+    "devto": "Consumiento la api de dev.to con hook $fetch de Nuxt ✌️",
     "showMore": "Si quieres ver más proyectos visita mi",
-    "timeline": "Timeline minimalista ⏳ con VueJS 💚.",
+    "meetups": "App para reuniones con salas de chat en tiempo real.",
     "title": "Mis proyectos",
     "titleSEO": "Lista de proyectos personales | Alfredo Fernandez",
-    "trackingPlants": "🌲 App para controlar tus plantas 🍀",
+    "cms": "Proyecto para ímpartir cursos y blog con administrador de contenido",
     "whoReviews": "Aplicación para saber quien 🔎 revisa los pull request."
   }
 }

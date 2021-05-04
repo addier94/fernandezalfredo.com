@@ -19,7 +19,7 @@
             <a
               v-for="(link, index) in links"
               :key="index"
-              class="link font-bold text-2xl text-blue-main-800 rounded p-4 cursor-pointer"
+              class="link font-bold text-2xl text-white rounded p-4 cursor-pointer"
               @click="navigateTo(link.url)"
             >
               {{ link.name }}
