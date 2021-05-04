@@ -10,7 +10,9 @@
 </template>
 <script>
 import Header from '@/components/ui/TheHeader'
+import UiTheFooter from '@/components/ui/TheFooter'
+
 export default {
-  components: { Header },
+  components: { Header, UiTheFooter },
 }
 </script>

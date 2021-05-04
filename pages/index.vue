@@ -1,7 +1,7 @@
 <template>
   <section>
     <section class="pb-10 items-center md:grid md:grid-cols-2 md:gap-4">
-      <div>
+      <div class="mb-4">
         <!-- TODO: translate and change this text -->
         <h1 class="text-3xl font-semibold">
           Hola <span class="salute">✋</span>
