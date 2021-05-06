@@ -92,9 +92,9 @@ module.exports = [
     property: 'og:image:type',
     content: 'image/jpeg',
   },
-  {
-    hid: 'google-site-verification',
-    name: 'google-site-verification',
-    content: 'stbDTm71faQjfZWQC6edmlVgwdw7EpBB0jWRhYsdRB8',
-  },
+  // {
+  //   hid: 'google-site-verification',
+  //   name: 'google-site-verification',
+  //   content: 'stbDTm71faQjfZWQC6edmlVgwdw7EpBB0jWRhYsdRB8',
+  // },
 ]
