@@ -9,7 +9,7 @@
           </a>
         </h1>
       </div>
-      <p class="description">{{ $t(project.description) }}</p>
+      <p class="project-description">{{ $t(project.description) }}</p>
     </div>
     <p class="info">
       <span v-if="project.language" class="language mr-4">
@@ -80,7 +80,7 @@ export default {
     }
   }
 
-  .description {
+  .project-description {
     @apply mt-2 mb-4 text-xs;
   }
 

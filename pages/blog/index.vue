@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mx-6 xl:max-w-screen-xl xl:mx-auto">
     <h1 class="title text-center">Blog</h1>
     <div class="mt-4 flex justify-center flex-wrap">
       <UiTag

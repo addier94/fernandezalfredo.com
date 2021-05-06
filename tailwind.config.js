@@ -1,12 +1,22 @@
 module.exports = {
   theme: {
+    fontFamily: {
+      sans: ['Montserrat-400'],
+      serif: ['Montserrat-700'],
+      mono: ['Montserrat-900'],
+    },
     extend: {
+      fontFamily: {
+        'mono-400': ['Roboto-400'],
+      },
       boxShadow: {
         code: '0 1px 1px rgb(0 0 0 / 8%)',
       },
       colors: {
         primary: '#5f7fff',
-        dark: 'black',
+        dark: '#191919',
+        'primary-light': '#f8f9fc',
+        // secondary: '#f8f9fc',
         'yellow-main': {
           300: '#beb950',
           500: '#f1e05a',

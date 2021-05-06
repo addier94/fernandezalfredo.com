@@ -26,6 +26,12 @@ article > .nuxt-content {
   color: theme('colors.red.700');
   padding: 0 3px;
 }
+pre,
+code,
+kbd,
+samp {
+  font-family: theme('fontFamily.mono-400');
+}
 
 .nuxt-content blockquote {
   border-left: 4px solid theme('colors.gray-main.400');

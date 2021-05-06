@@ -40,7 +40,7 @@ export default {
 
   computed: {
     urlPullRequest() {
-      return `https://github.com/pablosirera/pablosirera.com/tree/master/content/blog/${this.doc.slug}.md`
+      return `https://github.com/addier94/fernandezalfredo.com/tree/main/components/blog/${this.doc.slug}.md`
     },
   },
   head() {

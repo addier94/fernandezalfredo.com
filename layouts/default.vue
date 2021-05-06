@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen">
+  <div>
     <!-- <UiTheHeader /> -->
     <Header />
-    <main class="pt-4 container px-3">
+    <main>
       <nuxt />
     </main>
     <UiTheFooter />

@@ -1,6 +1,6 @@
 <template>
   <!-- TODO: improve this text -->
-  <section>
+  <section class="mx-6 xl:mx-auto xl:max-w-screen-xl mt-16">
     <p>
       ¡Hola ✋! soy <b>Alfredo Fernandez</b>, desarrollador Full stack con
       domicilio en Santa Cruz Bolivia.

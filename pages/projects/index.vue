@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="mx-6 xl:mx-auto xl:max-w-screen-xl">
     <h1 class="title text-center">{{ $t('projects.title') }}</h1>
     <section class="grid col-gap-5 grid-cols-1 pt-8 md:grid-cols-2">
       <ProjectsProjectCard

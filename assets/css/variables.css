@@ -1,10 +1,6 @@
 :root {
-  --mobile: 576px;
-  --tablet: 768px;
-  --desktop: 992px;
-  --large-desktop: 1200px;
   --color: theme('colors.blue-main.900');
-  --bg: theme('colors.white');
+  --bg: theme('colors.primary-light');
   --icons-color: theme('colors.blue-main.800');
   --title-color: theme('colors.blue-main.700');
   --nav-links-color: theme('colors.blue-main.800');
@@ -12,4 +8,16 @@
   --tag-bg: theme('colors.white');
   --tag-bg-hover: theme('colors.gray-main.100');
   --blog-card-shadow: #dadada80;
+
+  /* light */
+  --color-banner: #f8f9fc;
+  --white-black: theme('colors.white');
+  --gray-800-600: theme('colors.gray.800');
+  --nav-color: theme('colors.white');
+
+  --mobile: 576px;
+  --tablet: 768px;
+  --desktop: 992px;
+  --large-desktop: 1200px;
+  /* --socondary-moon: #101010; */
 }

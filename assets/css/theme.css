@@ -1,11 +1,6 @@
-/* TODO: refactorizar estas variables y usar el dark de tailwindcss */
 .dark {
   --color: theme('colors.gray-main.400');
-
-  /* --color: theme('colors.gray-main.50'); */
   --bg: theme('colors.dark');
-
-  /* --bg: theme('colors.blue-main.950'); */
   --icons-color: theme('colors.white');
   --title-color: theme('colors.gray-main.400');
   --nav-links-color: var(--color);
@@ -13,4 +8,13 @@
   --tag-bg: var(--bg);
   --tag-bg-hover: var(--bg);
   --blog-card-shadow: var(--bg);
+
+  /* dark */
+  --color-banner: #101010;
+  --white-black: #000000;
+  --gray-800-600: theme('colors.gray.600');
+  --nav-color: theme('colors.dark');
 }
+
+/* --bg: theme('colors.blue-main.950'); */
+/* --color: theme('colors.gray-main.50'); */

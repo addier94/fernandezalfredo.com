@@ -1,3 +1,34 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* add fonts */
+/* @import '~assets/css/fonts/Montserrat'; */
+
+@font-face {
+  font-family: 'Montserrat-400';
+  font-weight: 400;
+  src: url('~assets/css/fonts/Montserrat/Montserrat-Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-700';
+  font-weight: 700;
+  src: url('~assets/css/fonts/Montserrat/Montserrat-Bold.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-900';
+  font-weight: 900;
+  src: url('~assets/css/fonts/Montserrat/Montserrat-Black.ttf')
+    format('truetype');
+}
+/* Mono */
+@font-face {
+  font-family: 'Roboto-400';
+  font-weight: 400;
+  src: url('~assets/css/fonts/Roboto_Mono/static/RobotoMono-Regular.ttf')
+    format('truetype');
+}
