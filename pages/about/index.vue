@@ -36,24 +36,6 @@
       quería hacerle gastar más a mi familia y así es como me encuentro en este
       maravilloso mundo de la programación que me hace feliz 😆
     </p>
-    <br />
-    <p>
-      De vez en cuando escribo artículos en mi
-      <TheLink :is-local-route="true" url="/blog">blog</TheLink> o subo vídeos a
-      <TheLink url="https://www.youtube.com/channel/UC36KnR-WXAlragZX5SZIEUA">
-        Youtube </TheLink
-      >.
-    </p>
-    <br />
-    <p>
-      En mi cuenta de
-      <TheLink url="https://github.com/addier94">GitHub</TheLink>
-      pueden encontrar algunos proyectos personal que realizo en open source.
-      También puedes seguirme en mi cuenta de
-      <TheLink url="https://www.instagram.com/addier94/">Instagram</TheLink>
-      en la que suelo subir fotos 🤳 o en mi cuenta de
-      <TheLink url="https://twitter.com/addier94">Twitter</TheLink>
-    </p>
 
     <section class="mt-6">
       <h2 class="secondary-title pb-3">Experiencia laboral 👨🏼‍💻</h2>
