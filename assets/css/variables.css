@@ -14,6 +14,8 @@
   --white-black: theme('colors.white');
   --gray-800-600: theme('colors.gray.800');
   --nav-color: theme('colors.white');
+  --color-code: theme('colors.red.700');
+  --bg-code: theme('colors.gray.100');
 
   --mobile: 576px;
   --tablet: 768px;

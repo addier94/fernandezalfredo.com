@@ -14,6 +14,8 @@
   --white-black: #000000;
   --gray-800-600: theme('colors.gray.600');
   --nav-color: theme('colors.dark');
+  --color-code: #f7fafc;
+  --bg-code: #2d3748;
 }
 
 /* --bg: theme('colors.blue-main.950'); */

@@ -1,7 +1,9 @@
 <template>
-  <section class="md:flex">
+  <section class="md:flex mx-4">
     <article class="mb-20 w-full max-w-3xl mx-auto">
-      <h1 class="text-4xl">{{ doc.title }}</h1>
+      <h1 class="text-xl font-serif leading-6 sm:leading-10 mb-2 sm:text-4xl">
+        {{ doc.title }}
+      </h1>
       <p class="opacity-50">
         <span>🗓 {{ $d(new Date(doc.date), 'short') }}</span>
         -
