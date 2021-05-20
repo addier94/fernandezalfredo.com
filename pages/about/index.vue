@@ -2,15 +2,15 @@
   <!-- TODO: improve this text -->
   <section class="mx-6 xl:mx-auto xl:max-w-screen-xl mt-16">
     <p>
-      ¡Hola ✋! soy <b>Alfredo Fernandez</b>, desarrollador Full stack con
-      domicilio en Santa Cruz Bolivia.
+      ¡Hola ✋! soy <b>Alfredo Fernandez</b>, Voy a resumir mi historia de como
+      llegue a ser desarrollador de Software
     </p>
     <br />
     <p>
-      En mi infancia siempre me gustaba las computadoras 💻 en colegio 🎒 mi
-      materia favorita 💚 era computación, pero solo llegábamos hasta manejo de
-      office, un año antes de graduarme me compraron mi primer computadora ahí
-      intentaba aprender como pueda no tenia acceso a internet ni libros porque
+      Un año antes de graduarme me compraron mi primer computadora desde ahí
+      pasaba tiempo jugando, explorando cosas que tenia por supuesto arruinando
+      también era super novato, me acuerdo que cada vez llevaba al técnico para
+      sacar su virus o formatear no tenia acceso a internet ni libros porque
       vivíamos en provincia, de ahí me inscribí a instituto para aprender
       técnico en computadora y mecanografia ⌨️ solo seguíamos un programa que se
       llamaba MECAWIN nos enseñaba a escribir, pero yo quería llevármelo a mi
@@ -69,7 +69,7 @@ export default {
         {
           from: new Date(2021, 2),
           title: 'Freelancer',
-          description: `<b class="font-bold">Desarrollador frontend</b> Hasta la fecha actual me he enfocado haciendo proyectos como freelancer con Nuxt y algunos gestores de contenido, siento que construir aplicaciones basado en API es para equipos porque al menos a mi, me toma mucho tiempo, también no quiero escribir el backend sin testing realmente es increíble escribir algo y que el proyecto crezca tenga muchas funcionalidades y no tengas que probar manualmente con cada cambio o refactor que quieras hacer`,
+          description: `<b class="font-bold">Desarrollador frontend</b> Hasta la fecha actual me he enfocado haciendo proyectos como freelancer con Nuxt, tailwind y strapi`,
         },
         {
           from: new Date(2020, 1),

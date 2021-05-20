@@ -10,9 +10,13 @@
         />
         <div class="lg:flex lg:items-center">
           <div class="mx-4 mt-12 color-white-black font-mono text-3xl lg:mt-0">
-            <p class="description text-xs md:text-sm">HOLA SOY</p>
-            <p class="md:text-5xl leading-none">Alfredo Fernandez</p>
-            <p class="text-primary mb-3 md:text-5xl md:mb-1">Programador.</p>
+            <p class="description text-xs md:text-sm">QUIEN DIABLOS SOY</p>
+            <p class="md:text-5xl leading-none">
+              Soy Alfredo Fernandez Mucho Gusto
+            </p>
+            <p class="text-primary mb-3 md:text-5xl md:mb-1">
+              Un desarrollador.
+            </p>
             <p class="color-white-black">Freelancer.</p>
           </div>
         </div>
@@ -23,14 +27,15 @@
         <div class="mb-4 text-lg">
           <!-- TODO: translate and change this text -->
           <p>
-            Soy Full stack developer aunque ultimamente me apequé mas al front,
-            🖥️ Pasé los últimos años trabajando como 'freelancer' , donde
+            Soy Full stack developer ultimamente he trabajado más en frontend,
+            🖥️ Pasé los últimos años trabajando como 'freelancer', donde
             perfeccioné mi oficio como ingeniero de software.
           </p>
           <br />
           <p>
-            Si quieres saber más sobre mí, puedes hacer un tour por esta web o
-            seguirme por las redes sociales que dejo aquí bajo 👇👇👇
+            Creé este sitio con el objetivo de compartir mi conocimiento,
+            contribuir a la comunidad, puedes seguirme en twitter donde estaré
+            más activo
           </p>
           <div class="mt-6">
             <nuxt-link to="/blog" class="blog-button hover:opacity-75">
