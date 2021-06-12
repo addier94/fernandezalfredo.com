@@ -33,11 +33,10 @@
       universidad 🏫
       <TheLink url="https://www.utepsa.edu/v2/">UTEPSA</TheLink>
       para estudiar ingeniería de sistemas esta vez con mi recurso 💰 porque no
-      quería hacer gastar más a mi familia y así pasaron semestres años y bom
-      conocí la materia de programación, prácticamente de ahí cambio mi vida ya
-      casi no tenia vida social, me gusta este lado de la vida inventar cosas de
-      la nada, interactuar con decenas de miles de personas al rededor del mundo
-      es genial 😆
+      quería hacer gastar más a mi familia y así pasaron semestres años y bum
+      conocí la materia de programación, Invertía mucho tiempo en aprender como
+      autodidacta y sigo aprendiendo mientras trabajo, aunque un poco tarde,
+      pero creo que encontré mi pasión 😆
     </p>
 
     <section class="mt-6">
@@ -72,7 +71,7 @@ export default {
         {
           from: new Date(2021, 2),
           title: 'Freelancer',
-          description: `<b class="font-bold">Desarrollador frontend</b> Hasta la fecha actual me he enfocado haciendo proyectos como freelancer con Nuxt, tailwind y strapi`,
+          description: `<b class="font-bold">Desarrollador frontend</b> Hasta la fecha actual me he enfocado trabajando en proyectos con Nuxt, Next, tailwind y strapi`,
         },
         {
           from: new Date(2020, 1),

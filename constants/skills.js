@@ -7,6 +7,8 @@ import SASSIcon from '@/assets/icons/sass.svg?inline'
 import VueIcon from '@/assets/icons/vue.svg?inline'
 import NuxtIcon from '@/assets/icons/nuxt.svg?inline'
 import ResponsiveIcon from '@/assets/icons/responsive.svg?inline'
+import ReactIcon from '@/assets/icons/react.svg?inline'
+import NextjsIcon from '@/assets/icons/nextjs.svg?inline'
 
 export const SKILLS = [
   {
@@ -44,5 +46,13 @@ export const SKILLS = [
   {
     name: 'Nuxt',
     component: NuxtIcon,
+  },
+  {
+    name: 'React',
+    component: ReactIcon,
+  },
+  {
+    name: 'Next',
+    component: NextjsIcon,
   },
 ]

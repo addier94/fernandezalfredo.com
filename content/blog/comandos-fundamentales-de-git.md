@@ -1,7 +1,6 @@
 ---
 title: 'Comandos fundamentales de git'
-description: 'Realmente si
-dominas estes comandos estaras agradecido a git'
+description: 'Domina estos comandos de git e evitate de muchos dolores'
 date: 2021-05-02
 timeToRead: 2
 tags:
