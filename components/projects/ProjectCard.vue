@@ -7,6 +7,13 @@
           <a :href="project.url" class="title-link" target="_blank">
             {{ project.name }}
           </a>
+          <a
+            v-if="project.demo"
+            :href="project.demo"
+            class="title-demo"
+            target="_blank"
+            >DEMO</a
+          >
         </h1>
       </div>
       <p class="project-description">{{ $t(project.description) }}</p>
@@ -52,6 +59,8 @@ export default {
       return {
         'dot-language-vue': this.project.language === 'Vue',
         'dot-language-js': this.project.language === 'JavaScript',
+        'dot-language-react': this.project.language === 'React',
+        'dot-language-node': this.project.language === 'Node',
       }
     },
   },
@@ -66,13 +75,19 @@ export default {
     @apply flex items-center;
 
     .title {
-      @apply text-sm ml-2 font-semibold;
+      @apply text-sm ml-2 font-semibold w-full flex justify-between;
 
       &-link {
         text-decoration: none;
 
         @apply text-blue-main-600 font-semibold;
 
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &-demo {
+        @apply text-xs;
         &:hover {
           text-decoration: underline;
         }
@@ -99,6 +114,12 @@ export default {
 
       &-js {
         @apply bg-yellow-main-500;
+      }
+      &-react {
+        background: #61dbfb;
+      }
+      &-node {
+        background: #3c873a;
       }
     }
 
