@@ -114,3 +114,7 @@ Veamos un tag específico en detalle
 ```bash
 git show v1.0.0
 ```
+Tambien podemos reflejar estos tags en github 
+```
+git push origin --tags
+```
