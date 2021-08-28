@@ -36,7 +36,8 @@
       quería hacer gastar más a mi familia y así pasaron semestres años y bum
       conocí la materia de programación, Invertía mucho tiempo en aprender como
       autodidacta y sigo aprendiendo mientras trabajo, aunque un poco tarde,
-      pero creo que encontré mi pasión 😆
+      pero creo que encontré mi pasión a la que me dedicaré el resto de mi vida
+      😆
     </p>
 
     <section class="mt-6">

@@ -27,9 +27,9 @@
         <div class="mb-4 text-lg">
           <!-- TODO: translate and change this text -->
           <p>
-            Soy Full stack developer ultimamente he trabajado más en frontend,
-            🖥️ Pasé los últimos años trabajando como 'freelancer', donde
-            perfeccioné mi oficio como ingeniero de software.
+            Soy Full stack developer apacionado por la programación, 🖥️ Pasé los
+            últimos años trabajando en proyectos de todo tipo, donde perfeccioné
+            mi oficio como ingeniero de software.
           </p>
           <br />
           <p>

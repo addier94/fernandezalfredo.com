@@ -27,7 +27,7 @@
   },
   "projects": {
     "githubProfile": "perfil de Github",
-    "devto": "Consumiento la api de dev.to con hook $fetch de Nuxt ✌️",
+    "insta": "Instagram clone con react, node, socket.io con chat privado video llamadas etc.. ✌️",
     "countries": "App to know population, spoken languages, call code, country location, etc.",
     "djeventsbo": "🚀App for events, meetups etc.",
     "learningTracker": "Learning tracker sobre mis conocimientos.",

@@ -1,11 +1,12 @@
 export const PROJECTS = [
   {
-    name: 'Consuming api of dev.to',
-    description: 'projects.devto',
-    language: 'Vue',
+    name: 'Instagram Clone',
+    description: 'projects.insta',
+    language: 'React',
     stars: 1,
     forks: 0,
-    url: 'https://github.com/addier94/my_web_site_client',
+    url: 'https://github.com/addier94/facebolivia',
+    demo: 'https://facebolivia.herokuapp.com/',
   },
   {
     name: 'countries info',
