@@ -41,7 +41,7 @@
     </p>
 
     <section class="mt-6">
-      <h2 class="secondary-title pb-3">Experiencia laboral 👨🏼‍💻</h2>
+      <h2 class="secondary-title pb-3">Experiencia🏼‍💻</h2>
       <Timeline
         message-when-no-items="No hay datos"
         :timeline-items="timelineItems"
