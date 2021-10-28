@@ -3,7 +3,7 @@
     Copyright ©
     {{ year }}
     <TheLink url="https://twitter.com/addier94">Alfredo Fernandez</TheLink>
-    Todos los derechos reservados
+    All rights reserved
     <div class="flex justify-center mt-1">
       <UiSocialIcons />
     </div>

@@ -32,7 +32,7 @@
               target="_blank"
               >Utepsa.</a
             >
-            Since 2020 I started to build monolithic applications up to REST API
+            Since 2019 I started to build monolithic applications up to REST API
             with Laravel, but lately I have focused more on Frontend
           </p>
           <br />
@@ -72,7 +72,8 @@
         </div>
       </section>
       <section class="mt-12 md:grid md:grid-cols-2 md:gap-4">
-        <HomeYoutubeVideos :videos="videos" />
+        <!-- <HomeYoutubeVideos :videos="videos" /> -->
+        <LatestProject />
         <HomeListPosts :posts="posts" />
       </section>
     </div>
@@ -87,11 +88,12 @@
 </template>
 
 <script>
-import HomeYoutubeVideos from '@/components/home/YoutubeVideos'
+// import HomeYoutubeVideos from '@/components/home/YoutubeVideos'
+import LatestProject from '@/components/home/LatestProject.vue'
 import HomeListPosts from '@/components/home/ListPosts'
 // import UiCoffeeWidget from '@/components/ui/CoffeeWidget'
 export default {
-  components: { HomeYoutubeVideos, HomeListPosts },
+  components: { LatestProject, HomeListPosts },
   scrollToTop: true,
   async asyncData({ $content }) {
     const posts = await $content('blog')
@@ -100,15 +102,15 @@ export default {
       .limit(3)
       .fetch()
 
-    const videosResponse = await fetch(
-      `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUl41m8HBifhzM6Dh1V04wqA&maxResults=3&key=${process.env.YOUTUBE_API_KEY}`
-    )
-    const jsonVideos = await videosResponse.json()
-    const videos = jsonVideos.items
+    // const videosResponse = await fetch(
+    //   `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUl41m8HBifhzM6Dh1V04wqA&maxResults=3&key=${process.env.YOUTUBE_API_KEY}`
+    // )
+    // const jsonVideos = await videosResponse.json()
+    // const videos = jsonVideos.items
 
     return {
       posts,
-      videos,
+      // videos,
     }
   },
 }

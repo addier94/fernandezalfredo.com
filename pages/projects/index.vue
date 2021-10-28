@@ -2,11 +2,11 @@
   <section class="mx-6 xl:mx-auto xl:max-w-screen-xl">
     <h1 class="title text-center">{{ $t('projects.title') }}</h1>
     <section class="grid col-gap-5 grid-cols-1 pt-8 md:grid-cols-2">
-      <ProjectsProjectCard
+      <!-- <ProjectsProjectCard
         v-for="(project, index) in projects"
         :key="index"
         :project="project"
-      />
+      /> -->
     </section>
     <p class="text-center">
       {{ $t('projects.showMore') }}
@@ -19,11 +19,11 @@
 
 <script>
 import { PROJECTS } from '@/constants/projects'
-import ProjectsProjectCard from '@/components/projects/ProjectCard'
+// import ProjectsProjectCard from '@/components/projects/ProjectCard'
 import TheLink from '@/components/global/TheLink'
 
 export default {
-  components: { ProjectsProjectCard, TheLink },
+  components: { TheLink },
   computed: {
     projects() {
       return PROJECTS
