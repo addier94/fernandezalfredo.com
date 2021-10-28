@@ -17,31 +17,31 @@
 export default {
   name: 'SocialIcons',
   components: {
-    SocialTwitter: () => import('@/assets/icons/twitter.svg?inline'),
-    SocialInstagram: () => import('@/assets/icons/instagram.svg?inline'),
-    SocialTwitch: () => import('@/assets/icons/twitch.svg?inline'),
-    SocialYoutube: () => import('@/assets/icons/youtube.svg?inline'),
+    // SocialTwitter: () => import('@/assets/icons/twitter.svg?inline'),
+    // SocialInstagram: () => import('@/assets/icons/instagram.svg?inline'),
+    // SocialTwitch: () => import('@/assets/icons/twitch.svg?inline'),
+    // SocialYoutube: () => import('@/assets/icons/youtube.svg?inline'),
     SocialLinkedin: () => import('@/assets/icons/linkedin.svg?inline'),
     SocialGithub: () => import('@/assets/icons/github.svg?inline'),
   },
   data: () => ({
     // TODO: translate this texts and add alt
     socials: [
-      {
-        href: 'https://twitter.com/addier94',
-        name: 'twitter',
-        ariaLabel: 'Sígueme en twitter',
-      },
-      {
-        href: 'https://instagram.com/addier94',
-        name: 'instagram',
-        ariaLabel: 'Sígueme en instagram',
-      },
-      {
-        href: 'https://www.youtube.com/channel/UC36KnR-WXAlragZX5SZIEUA',
-        name: 'youtube',
-        ariaLabel: 'Subscríbete a mi canal de youtube',
-      },
+      // {
+      //   href: 'https://twitter.com/addier94',
+      //   name: 'twitter',
+      //   ariaLabel: 'Sígueme en twitter',
+      // },
+      // {
+      //   href: 'https://instagram.com/addier94',
+      //   name: 'instagram',
+      //   ariaLabel: 'Sígueme en instagram',
+      // },
+      // {
+      //   href: 'https://www.youtube.com/channel/UC36KnR-WXAlragZX5SZIEUA',
+      //   name: 'youtube',
+      //   ariaLabel: 'Subscríbete a mi canal de youtube',
+      // },
       {
         href: 'https://www.linkedin.com/in/addier94',
         name: 'linkedin',

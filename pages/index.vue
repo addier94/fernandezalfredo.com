@@ -10,14 +10,12 @@
         />
         <div class="lg:flex lg:items-center">
           <div class="mx-4 mt-12 color-white-black font-mono text-3xl lg:mt-0">
-            <p class="description text-xs md:text-sm">QUIEN DIABLOS SOY</p>
-            <p class="md:text-5xl leading-none">
-              Soy Alfredo Fernandez Mucho Gusto
-            </p>
+            <p class="description text-xs md:text-sm">Hello</p>
+            <p class="md:text-5xl leading-none">I am Alfredo Fernandez</p>
             <p class="text-primary mb-3 md:text-5xl md:mb-1">
-              Un desarrollador.
+              Frontend developer
             </p>
-            <p class="color-white-black">Freelancer.</p>
+            <p class="color-white-black">I love React with Typescript</p>
           </div>
         </div>
       </div>
@@ -27,25 +25,39 @@
         <div class="mb-4 text-lg">
           <!-- TODO: translate and change this text -->
           <p>
-            Soy Full stack developer apacionado por la programación, 🖥️ Pasé los
-            últimos años trabajando en proyectos de todo tipo, donde perfeccioné
-            mi oficio como ingeniero de software.
+            Hello! My name is Alfredo. I have studied Systems Engineering in
+            <a
+              class="text-primary"
+              href="https://www.utepsa.edu"
+              target="_blank"
+              >Utepsa.</a
+            >
+            Since 2020 I started to build monolithic applications up to REST API
+            with Laravel, but lately I have focused more on Frontend
           </p>
           <br />
-          <p>
-            Creé este sitio con el objetivo de compartir mi conocimiento,
-            contribuir a la comunidad, puedes seguirme en twitter donde estaré
-            más activo
-          </p>
+          <p>Here are a few technologies I’ve been working with recently:</p>
+          <div class="flex justify-evenly mt-2">
+            <ul class="list-decimal">
+              <li>React</li>
+              <li>Typescript</li>
+              <li>Redux</li>
+            </ul>
+            <ul class="list-decimal">
+              <li>Tailwindcss</li>
+              <li>Node.js</li>
+              <li>Next</li>
+            </ul>
+          </div>
           <div class="mt-6">
-            <nuxt-link to="/blog" class="blog-button hover:opacity-75">
-              Blog
+            <nuxt-link to="/projects" class="blog-button hover:opacity-75">
+              My Projects
             </nuxt-link>
             <nuxt-link
               to="/about"
               class="about-button hover:bg-primary hover:text-white"
             >
-              Sobre mí
+              CV
             </nuxt-link>
           </div>
         </div>
@@ -64,22 +76,22 @@
         <HomeListPosts :posts="posts" />
       </section>
     </div>
-    <section class="mt-12 text-center">
+    <!-- <section class="mt-12 text-center">
       Si te gusta mi contenido y quieres apoyarme 💪 puedes invitarme a un ☕️ o
       compartir el contenido
       <div class="flex justify-center mt-4">
         <UiCoffeeWidget />
       </div>
-    </section>
+    </section> -->
   </section>
 </template>
 
 <script>
 import HomeYoutubeVideos from '@/components/home/YoutubeVideos'
 import HomeListPosts from '@/components/home/ListPosts'
-import UiCoffeeWidget from '@/components/ui/CoffeeWidget'
+// import UiCoffeeWidget from '@/components/ui/CoffeeWidget'
 export default {
-  components: { HomeYoutubeVideos, HomeListPosts, UiCoffeeWidget },
+  components: { HomeYoutubeVideos, HomeListPosts },
   scrollToTop: true,
   async asyncData({ $content }) {
     const posts = await $content('blog')
