@@ -6,19 +6,19 @@
           Featured Project
         </h5>
         <div class="flex">
-          <a target="_blank" href="https://github.com/">
+          <a target="_blank" href="https://github.com/addier94/facebolivia">
             <SocialGithub class="w-8 h-8 mx-3 cursor-pointer" />
           </a>
-          <a href="https://fernandezalfredo.com/" target="_blank">
+          <a href="https://facebolivia.herokuapp.com/" target="_blank">
             <ExternalLink class="w-8 h-8 cursor-pointer" />
           </a>
         </div>
       </div>
-      <h6>Project like instagram</h6>
+      <h6>Instagram Clone</h6>
     </div>
     <img
       class="rounded-md"
-      src="https://images.unsplash.com/photo-1633114127451-558041183c3b?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+      src="https://res.cloudinary.com/dbsszsws9/image/upload/v1628274265/apps_screenshop/Screenshot_from_2021-08-06_14-09-52_hm9cix.png"
       alt="last project"
     />
   </div>

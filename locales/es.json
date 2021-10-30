@@ -1,12 +1,12 @@
 {
   "general": {
-    "altLogo": "Alfredo Fernandez, Full stack developer | Javascript, Vue, Nuxt Laravel y Linux",
+    "altLogo": "Alfredo Fernandez, Frontend developer",
     "closeMenu": "Cerrar menú",
     "openMenu": "Abrir menú"
   },
   "home": {
-    "lastPosts": "Últimos artículos",
-    "lastVideos": "Últimos videos"
+    "lastPosts": "Latest Article",
+    "lastVideos": "Latest Video"
   },
   "months": {
     "april": "Abril",
@@ -33,7 +33,7 @@
     "learningTracker": "Learning tracker sobre mis conocimientos.",
     "nearestBin": "🗑 Busca tu papelera más cercana",
     "showMore": "Si quieres ver más proyectos visita mi",
-    "title": "Mis proyectos",
+    "title": "Featured Projects",
     "titleSEO": "Lista de proyectos personales | Alfredo Fernandez",
     "whoReviews": "Aplicación para saber quien 🔎 revisa los pull request."
   }
