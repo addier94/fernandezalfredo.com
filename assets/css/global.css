@@ -48,6 +48,9 @@ h3 {
 
   @apply text-lg font-semibold;
 }
+.bg-main{
+  background: var(--bg)
+}
 
 .description {
   color: var(--gray-800-600);

@@ -8,13 +8,19 @@
 
     <!-- Show mobile and desktop -->
     <div class="content__detail p-5 md:py-8 md:pr-8 md:pl-0 md:flex-grow">
-      <div>
-        <h4 class="text-primary">Featured Project</h4>
-        <h2 class="mb-6">{{ project.name }}</h2>
-        <p class="mb-6 md:bg-primary p-5">
-          {{ project.description }}
-        </p>
-        <ul class="tools">
+      <article>
+        <div class="mb-4">
+          <div class="inline-block bg-main p-3 rounded-t-2xl">
+            <h4 class="text-primary uppercase font-bold inline-block bg-main">
+              Featured Project
+            </h4>
+            <h2>{{ project.name }}</h2>
+          </div>
+          <p class="bg-main p-2 rounded-tr-2xl">
+            {{ project.description }}
+          </p>
+        </div>
+        <ul class="tools bg-main rounded-b-2xl p-3">
           <li
             v-for="(tool, index) in project.technologies"
             :key="index"
@@ -24,18 +30,20 @@
           </li>
         </ul>
 
-        <div class="inline-flex mt-4 bg-primary py-1 px-2 rounded-sm">
+        <div class="inline-flex mt-4 py-1 px-2 bg-main">
           <a target="_blank" :href="project.githubUrl">
-            <SocialGithub class="w-6 h-6 cursor-pointer text-white" />
+            <SocialGithub class="w-6 h-6 color-white-black cursor-pointer" />
           </a>
           <a :href="project.demo" target="_blank">
-            <ExternalLink class="w-6 h-6 ml-4 cursor-pointer text-white" />
+            <ExternalLink
+              class="w-6 h-6 color-white-black ml-4 cursor-pointer"
+            />
           </a>
         </div>
-      </div>
+      </article>
     </div>
     <!-- Show only desktop -->
-    <div class="hidden md:block md:-ml-32 md:flex-grow d__img_wrapper">
+    <div class="hidden md:block md:-ml-64 md:flex-grow d__img_wrapper">
       <img
         class="w-full object-cover"
         :src="project.image"
@@ -90,7 +98,7 @@ export default {
   @apply w-full h-full absolute object-cover;
 }
 .content__detail {
-  text-shadow: 0.5px 0.5px white;
+  // text-shadow: 0.5px 0.5px white;
   @apply relative z-10 flex justify-center items-center;
 
   .tools {
