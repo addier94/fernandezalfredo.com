@@ -18,7 +18,7 @@
     </div>
     <img
       class="rounded-md"
-      src="https://res.cloudinary.com/dbsszsws9/image/upload/v1628274265/apps_screenshop/Screenshot_from_2021-08-06_14-09-52_hm9cix.png"
+      src="https://res.cloudinary.com/dbsszsws9/image/upload/v1641421518/apps_screenshop/reddecitas_a7ieqw.png"
       alt="last project"
     />
   </div>

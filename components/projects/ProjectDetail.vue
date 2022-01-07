@@ -10,17 +10,17 @@
     <div class="content__detail p-5 md:py-8 md:pr-8 md:pl-0 md:flex-grow">
       <article>
         <div class="mb-4">
-          <div class="inline-block bg-main p-3 rounded-t-2xl">
-            <h4 class="text-primary uppercase font-bold inline-block bg-main">
+          <div class="inline-block bg-main p-2 rounded-t-2xl">
+            <!-- <h4 class="text-primary uppercase font-bold inline-block bg-main">
               Featured Project
-            </h4>
+            </h4> -->
             <h2>{{ project.name }}</h2>
           </div>
           <p class="bg-main p-2 rounded-tr-2xl">
             {{ project.description }}
           </p>
         </div>
-        <ul class="tools bg-main rounded-b-2xl p-3">
+        <ul class="tools bg-main rounded-b-2xl p-2">
           <li
             v-for="(tool, index) in project.technologies"
             :key="index"

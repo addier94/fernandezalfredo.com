@@ -54,7 +54,7 @@
               My Projects
             </nuxt-link>
             <nuxt-link
-              to="/about"
+              to="/cv"
               class="about-button hover:bg-primary hover:text-white"
             >
               CV
@@ -65,7 +65,7 @@
         <div class="image-wrapper">
           <img
             class="image"
-            src="https://images.unsplash.com/photo-1618335829737-2228915674e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            src="/programing_image.jpeg"
             alt="desarrollador web"
             loading="lazy"
           />

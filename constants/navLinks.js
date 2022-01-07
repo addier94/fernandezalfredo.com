@@ -5,15 +5,19 @@ export const NAV_LINKS = [
   },
   {
     url: '/blog',
-    name: 'Blog',
+    name: 'Blogs',
   },
   {
     url: '/projects',
-    name: 'Proyectos',
+    name: 'Projects',
   },
+  // {
+  //   url: '/about',
+  //   name: 'Sobre mí',
+  // },
   {
-    url: '/about',
-    name: 'Sobre mí',
+    url: '/cv',
+    name: 'Cv',
   },
   // {
   //   url: '/contact-me',

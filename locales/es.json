@@ -26,14 +26,14 @@
     "minute": "minuto | minutos"
   },
   "projects": {
-    "githubProfile": "perfil de Github",
+    "githubProfile": "Github Profile",
     "insta": "Instagram clone con react, node, socket.io con chat privado video llamadas etc.. ✌️",
     "countries": "App to know population, spoken languages, call code, country location, etc.",
     "djeventsbo": "🚀App for events, meetups etc.",
     "learningTracker": "Learning tracker sobre mis conocimientos.",
     "nearestBin": "🗑 Busca tu papelera más cercana",
-    "showMore": "Si quieres ver más proyectos visita mi",
-    "title": "Featured Projects",
+    "showMore": "If you want to see more projects visit my",
+    "title": "Latest projects",
     "titleSEO": "Lista de proyectos personales | Alfredo Fernandez",
     "whoReviews": "Aplicación para saber quien 🔎 revisa los pull request."
   }
